@@ -495,6 +495,10 @@ ${mot} _${prefix}lionlogo text1 text2_
 ${mot} _${prefix}wolflogo text1 text2_
 ${mot} _${prefix}steel3d text1 text2_
 ${mot} _${prefix}wallgravity text1 text2_
+➤ _*SEWA BOT*_
+   5K  = 1MINGGU
+   10K = 1BULAN
+   15K = Permanen
 `
 gura.sendMessage(from, { contentText: `${menuh}`, footerText: `Made On Date - 1-11-2021`, buttons: [{ buttonId: `${prefix}owner`, buttonText: { displayText: '~Owner' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: tamnel, contextInfo: {mentionedJid: [sender, ownerNumber]}}}, 'buttonsMessage')
 break
